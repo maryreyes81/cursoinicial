@@ -447,7 +447,7 @@ h3{
     flex-wrap: wrap;
     gap: 20px;
     text-align: left;
-    padding: 60px;
+    padding: 30px;
 }
 
 .categoriasxcontenedor{
@@ -464,5 +464,13 @@ h3{
 .categoriasxcontenedor ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
+}
+.categoriasxul{
+    font-size: 12px;
+}
+
+.derechos{
+    margin-top: 15px;
+    font-size: 15px;
 }
