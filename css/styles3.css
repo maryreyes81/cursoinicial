@@ -1,0 +1,77 @@
+@media screen and (max-width:480px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2, h3 {
+        font-size: 2.4rem;
+    }
+
+    .ulist {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .ulist li {
+       margin: 10px 0;
+    }
+
+    section.hero-image {
+        height: 18rem;
+    }
+
+    .container1, .containerpadre, .containerpadre2, .containerpadre3, .containerpadre4 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .producto1, .producto-info1,
+    .producto2, .producto-info2,
+    .producto3, .producto-info3,
+    .producto4, .producto-info4,
+    .producto5, .producto-info5,
+    .producto6, .producto-info6 {
+        width: 100%; 
+        height: auto;
+        margin:0;
+        padding:10px 0;
+    }
+
+    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9 {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Oficina, .Hogar, .Cocina {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .categoriasxcontenedor {
+        width: 100%;
+        margin:10px 0;
+    }
+
+    .derechos {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

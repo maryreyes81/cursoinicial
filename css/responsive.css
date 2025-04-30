@@ -1,0 +1,630 @@
+@media screen and(max-width: 1280px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+     
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    .container1 {
+        max-width: 1280px;
+    }
+    
+    .producto1, {
+        width: 640px;
+    }
+    
+    .producto-info1 {
+       width: 640px; 
+    }
+    
+    .pic1 {
+        width: 640px;
+    }
+     
+    .containerpadre {
+        max-width: 1280px;
+    }
+      
+    .container2, .container3 {
+        width: 640px;
+    }
+    
+    .pic2, .pic3  {
+        width: 640px;
+    }
+    
+    .producto2, .producto3 {
+        width: 640px;
+    }
+    
+    .producto-info2, .producto-info3  {
+        width: 640px;
+    }
+            
+    .containerpadre2, .containerpadre3{
+        max-width: 1280px;
+        
+    }
+    .container4, .container5, .container6 {
+        width: 400px;
+        margin-right: 20px;
+    }
+    
+    .pic4, .pic5, .pic6 {
+        width: 400px;
+    }
+    
+    .producto4, .producto5, .producto6   {
+        width: 400px;
+    }
+    
+    .producto-info4, .producto-info5, .producto-info6  {
+        width: 400px;
+    }
+     
+    .container7, .container8, .container9{
+        width: 400px;
+    }
+    
+    .pic7, .pic8, .pic9 {
+        width: 400px;
+    }
+    
+    .Oficina, .Hogar, .Cocina   {
+        width: 400px;
+    }
+
+    h3{
+        font-size: 3.6rem;
+    }
+
+
+@media screen and(max-width: 970px) {
+
+    html{
+        font-size: 65%;
+        }
+        
+    body {
+                font-size: 2.7rem;
+     }
+    
+    h1 {
+        font-size: 3.8rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    section.hero-image {
+        height: 23rem;
+    }
+    
+    
+    h1.titulo-pagina {
+        font-size: xxx-large;
+    }
+    
+    .container1 {
+        max-width: 970px;
+    }
+    
+    .producto1 {
+        width: 485px;
+        height: 300px;
+    }
+    
+    .producto-info1 {
+        width: 485px;
+        height: 300px;
+    }
+
+    .producto-info1 h3{
+        padding: 25px;
+    }
+    
+    .pic1 {
+        height: 300px;
+        width: 485px;
+    }
+    
+    
+    .containerpadre {
+        max-width: 970px;
+    }
+    
+    .container2,
+    .container3 {
+        width: 485px;
+    }
+    
+    .pic2, .pic3 {
+        height: 250px;
+        width: 475px;
+    }
+    
+    .producto2, .producto3 {
+        width: 475px;
+        height: 250px;
+    }
+    
+    .producto-info2, .producto-info3  {
+        width: 475px;
+        height: 250px;
+    }
+    
+    .containerpadre2{
+     max-width: 970px; 
+    }
+    .container4, .container5, .container6 {
+        width: 310px;
+        margin-right: 20px;
+    }
+    
+    .pic4, .pic5, .pic6 {
+        height: 180px;
+        width: 310px;
+    }
+    
+    .producto4, .producto5, .producto6   {
+        width: 310px;
+        height: 180px;        
+    }
+    
+    .producto-info4, .producto-info5, .producto-info6  {
+        width: 310px;
+        padding: 15px;
+    }
+      
+    .containerpadre3{
+        max-width: 970px;
+    }
+    
+    .container7,
+    .container8,
+    .container9{
+        width: 316px;
+    }
+    
+    .container7, .container8{
+        margin-right: 10px;
+    }
+    
+    .pic7 {
+
+        height: 170px;
+        width: 316px;
+    }
+    
+    .Oficina, .Hogar,.Cocina   {
+        width: 323px;
+    }
+    
+    .pic8, .pic9 {
+        height: 170px;
+        width: 316px;
+    }
+    
+    h3{
+        font-size: 2.5rem;
+    }
+    .containerpadre4{
+        gap: 10px;
+    }
+    
+    .categoriasxcontenedor{
+        height: 200px;
+    }
+
+    .categoriasxul{
+        font-size: 12px;
+    }
+    
+    .derechos{
+        font-size: 18px;
+    } 
+}
+@media screen and(max-width: 767px) {
+    html{
+        font-size: 45%;
+        }
+        
+    body {
+                font-size: 2rem;
+            }
+
+    h1 {
+        font-size: 3.4rem;
+    }
+    
+    h2 {
+        font-size: 3.1rem;
+    }
+    
+    section.hero-image {
+        height: 20rem;
+    }
+    
+    
+    h1.titulo-pagina {
+        font-size: xx-large;
+    }
+    
+    .container1 {
+        max-width: 767px;
+    }
+    
+    .producto1 {
+        width: 383px;
+        height: 200px;
+    }
+    
+    .producto-info1 {
+        width: 383px;
+        height: 200px;
+    }
+
+    .producto-info1 h3{
+        padding: 25px;
+    }
+    
+    .pic1 {
+        height: 200px;
+        width: 383px;
+    }
+    
+    .containerpadre {
+        max-width: 767px;
+    }
+    
+    .container2,
+    .container3 {
+        width: 383px;
+    }
+    
+    .pic2, .pic3 {
+        height: 200px;
+        width: 383px;
+    }
+    
+    .producto2, .producto3 {
+        width: 383px;
+        height: 200px;
+    }
+    
+    .producto-info2, .producto-info3  {
+        width: 383px;
+        height: 200px;
+    }
+    
+    .containerpadre2{
+     max-width: 767px; 
+    }
+    .container4, .container5, .container6 {
+        width: 250px;
+        margin-right: 10px;
+    }
+    
+    .pic4, .pic5, .pic6 {
+        height: 180px;
+        width: 250px;
+    }
+    
+    .producto4, .producto5, .producto6   {
+        width: 250px;
+        height: 180px;        
+    }
+    
+    .producto-info4, .producto-info5, .producto-info6  {
+        width: 250px;
+        padding: 15px;
+    }
+      
+    
+    .containerpadre3{
+        max-width: 767px;
+    }
+    
+    .container7,
+    .container8,
+    .container9{
+        width: 250px;
+    }
+    
+    .container7, .container8{
+        margin-right: 10px;
+    }
+    
+    .pic7 {
+
+        height: 170px;
+        width: 250px;
+    }
+    
+    .Oficina, .Hogar, .Cocina   {
+        width: 323px;
+    }
+    
+    .pic8, .pic9 {
+        height: 170px;
+        width: 250px;
+    }
+    
+    h3{
+        font-size: 1.8rem;
+    }
+    .containerpadre4{
+        gap: 10px;
+    }
+    
+    .categoriasxcontenedor{
+        height: 200px;
+    }
+
+    .categoriasxul{
+        font-size: 12px;
+    }
+    
+    .derechos{
+        font-size: 15px;
+    }
+    
+}
+@media screen and(max-width: 400px) {
+    html{
+        font-size: 55%;
+        }
+        
+        body {
+                font-size: 1rem;
+            }
+        header{
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+        }
+        
+        .nav {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 60px;
+        }
+
+        h1.titulo-pagina {
+            font-size: x-large;
+        }
+
+        container1 {
+            max-width: 400px;
+        }
+        
+        .producto1 {
+            max-width: 400px;
+            height: 200px;
+        }
+        
+        .producto-info1 {
+            max-width: 400px;
+            height: 200px;
+        }
+        .producto-info1 h3{
+            padding: 30px;
+        }
+        
+        .pic1 {
+            height: 200px;
+            max-width: 400px;
+        }
+
+        .containerpadre {
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .container2,
+        .container3 {
+            width: 400px;
+        }
+        
+        .pic2 {
+            height:200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .producto2 {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            margin-right: 0px;
+        
+        }
+        
+        .producto-info2  {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+        }
+        
+        
+        .pic3 {
+            height:200px;
+            width: 400px;
+            max-width: 400px;
+            margin:0;
+        }
+        
+        .producto3 {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+        }
+        .producto-info3 {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+        }
+
+        .containerpadre2{
+            width: 100%;
+            max-width: 400px;
+            
+        }
+        .container4 {
+            width: 400px;
+            max-width: 400px;
+            margin:0;
+        }
+        
+        .pic4 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .producto4   {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+        }
+        
+        .producto-info4  {
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            padding: 0;
+        }
+        
+        .container5{
+            width: 400px;
+        max-width: 400px;
+            margin:0;
+        }
+        
+        .pic5 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .producto5{
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            margin: 0px;
+        }
+        
+        .producto-info5{
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            padding: 0;
+        }
+        
+        .container6 {
+            width: 400px;
+            max-width: 400px;
+            margin:0;
+        }
+        
+        .pic6 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .producto6{
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            margin: 0px;
+        }
+        
+        .producto-info6{
+            width: 400px;
+            max-width: 400px;
+            height: 200px;
+            padding: 0;
+        }
+        
+        .categorias{
+            margin: 15px 0;
+        }
+        .containerpadre3{
+            gap:0;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .container7,
+        .container8,
+        .container9{
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .container7, .container8{
+            margin: 10px;
+        }
+        
+        .pic7 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        .Oficina,
+        .Hogar,
+        .Cocina   {
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        
+        
+        .pic8 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        
+        
+        .pic9 {
+            height: 200px;
+            width: 400px;
+            max-width: 400px;
+        }
+        h3{
+            font-size: 2rem;
+        } 
+
+        .containerpadre4{
+            width: 100%;
+            max-width: 400px;
+            padding:15px;
+            gap:0;
+            margin-top: 0px;
+        }
+        
+        .categoriasxcontenedor{
+            width: 400px;
+            height: 200px;
+        }
+        
+        .categoriasxul{
+            font-size: 12px;
+        }
+        
+        .derechos{
+            font-size: 13px;
+        }
+        
+
+}
