@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles2.css">
-    <Link rel="stylesheet" href="./css/responsive.css">
-    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="./css/styles2.css"> -->
+    <link rel="stylesheet" href="./css/styles3.css">
+    <!-- <Link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
@@ -15,7 +17,43 @@
         <h1 class="tienda">Tienda <span>Muebles</span></h1>
     </header>
 
-    <nav class="nav">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm w-100 mi-navbar fs-3 justify-content-center">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav w-100  d-flex flex-column flex-sm-row justify-content-center text-center mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Galería y Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+
+    <!--  <nav class="nav">
         <ul class="ulist">
             <li>
                 <a href="#">Inicio</a>
@@ -33,14 +71,208 @@
                 <a href="#">Galeria y Contacto</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 
-    <section class="hero-image">
-        <div class="overlay">
-            <h1 class="titulo-pagina">Tienda en línea de Muebles</h1>
+    <!-- Hero-Image -->
+    <div class="container-fluid hero-image d-flex align-items-center justify-content-center text-white">
+        <h1 class="titulo-pagina">Tienda en línea de Muebles</h1>
+    </div>
+
+    <!--  <section class="hero-image"> -->
+    <div class="overlay">
+        <h1 class="titulo-pagina2 text-center text-dark bg-white my-5">Nuestros Productos</h1>
+    </div>
+
+    <!--Primera fila-->
+
+    <div class="container text-center">
+        <div class="row section border- border-dark justify-content-center">
+            <div class=" col-sm-12 col-md-6  mb-sm-0 mb-md-4 px-0">
+                <img src="./imagenes/producto1.jpg" class="img-fluid" alt="producto1">
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4 border border-dark descripcionp">
+                <h3 class="fs-2 fw-bold tituloprod">Sofá</h3>
+                <p class="descripcion fs-3">Descripción del producto.</p>
+                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                <button class="btn btn-success">Agregar al carrito</button>
+            </div>
         </div>
+    </div>
+
+    <!--Segunda fila-->
+
+    <div class="container">
+        <div class="row section gx-3 mb-4"> <!-- gx-5: espacio horizontal entre columnas -->
+
+            <!-- Primera columna con dos filas -->
+            <div class="col-sm-12  col-md-6  px-0">
+                <div class="mb-0">
+                    <!-- Primera fila -->
+                    <div class=" mx-0  mi-contenedor"><img src="./imagenes/producto1.jpg" class="img-fluid"
+                            alt="producto1">
+                    </div>
+                </div>
+                <div>
+                    <!-- Segunda fila -->
+                    <div class="border-dark mb-4 misegunda-f border border-dark descripcionp">
+                        <h3 class="fs-2 fw-bold">Sofá</h3>
+                        <p class="descripcion fs-3">Descripción del producto.</p>
+                        <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                        <button class="btn btn-success">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda columna con dos filas -->
+            <div class="col-sm-12 col-md-6  px-0 ">
+                <div class="mb-0">
+                    <!-- Primera fila -->
+                    <div class="border border-dark"><img src="./imagenes/producto3.jpg" class="img-fluid"
+                            alt="producto3">
+                    </div>
+                </div>
+                <div>
+                    <!-- Segunda fila -->
+                    <div class="border border-dark descripcionp mb-4 misegunda-f">
+                        <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
+                        <p class="descripcion fs-3">Descripción del producto.</p>
+                        <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                        <button class="btn btn-success">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Tercera Fila------->
+
+    <div class="container px-0">
+        <div class="row section gx-3">
+            <!-- Columna 1 -->
+            <div class="col-sm-12  col-md-4">
+                <div class="border"><img src="./imagenes/producto4.jpg" class="img-fluid" alt="producto1"></div>
+                <div class="border descripcionp descripcionpp">
+                    <h3 class="fs-2 fw-bold ">Sofá Moderno</h3>
+                    <p class="descripcion fs-3">Descripción del producto.</p>
+                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                    <button class="btn btn-success">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <!-- Columna 2 -->
+            <div class="col-sm-12 col-md-4">
+                <div class="border">
+                    <div class="border"><img src="./imagenes/producto5.jpg" class="img-fluid" alt="producto5"></div>
+                </div>
+                <div class="border descripcionp descripcionpp">
+                    <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
+                    <p class="descripcion fs-3">Descripción del producto.</p>
+                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                    <button class="btn btn-success">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <!-- Columna 3 -->
+            <div class="col-sm-12 col-md-4">
+                <div class="border">
+                    <div class="border"><img src="./imagenes/producto6.jpg" class="img-fluid" alt="producto6"></div>
+                </div>
+                <div class="border descripcionp descripcionpp">
+                    <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
+                    <p class="descripcion fs-3">Descripción del producto.</p>
+                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                    <button class="btn btn-success">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categorías -->
+
+    <h2 class="categorias text-center fs-1 py-4">Categorías</h2>
+
+    <div class="container px-0">
+        <div class="row section gx-3">
+            <!-- Columna 1 -->
+            <div class="col-sm-12 col-md-4 categoria">
+                <div class="border-0 pic"><img src="./imagenes/categoria1.jpg" class="img-fluid" alt="categoría1"></div>
+                <div class="border-0 cat ">Oficina</div>
+            </div>
+
+            <!-- Columna 2 -->
+            <div class="col-sm-12 col-md-4 categoria">
+                <div class="border-0 pic"><img src="./imagenes/categoria2.jpg" class="img-fluid" alt="categoría2"></div>
+                <div class="border-0 cat ">Hogar</div>
+            </div>
+
+            <!-- Columna 3 -->
+            <div class="col-sm-12 col-md-4 categoria">
+                <div class="border-0 pic"><img src="./imagenes/categoria3.jpg" class="img-fluid" alt="categoría3"></div>
+                <div class="border-0 cat">Cocina</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+          <div class="row section justify-content-center">
+            <!-- Categorías -->
+            <div class="col-sm-12 col-md-4 mb-4 text-center">
+              <h5 class="text-uppercase">Categorías</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white text-decoration-none">Cocina</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Oficina</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Jardín</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Cochera</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Dormitorios</a></li>
+              </ul>
+            </div>
+      
+            <!-- Sobre nosotros -->
+            <div class="col-sm-12 col-md-4 mb-4 text-center">
+              <h5 class="text-uppercase">Sobre nosotros</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white text-decoration-none">Nuestra historia</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Misión</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Visión y valores</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Carrera</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Políticas de privacidad</a></li>
+              </ul>
+            </div>
+      
+            <!-- Soporte -->
+            <div class="col-sm-12 col-md-4 mb-4 text-center">
+              <h5 class="text-uppercase">Soporte</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white text-decoration-none">Preguntas frecuentes</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Ayuda en línea</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Confianza y seguridad</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="bg-secondary text-center py-3">
+          <small>&copy; 2025 Todos los derechos reservados.</small>
+        </div>
+      </footer>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
-    <main>
+    <!-- <main>
         <h2>Nuestros Productos</h2>
         <section>
             <article>
@@ -183,7 +415,12 @@
         <section class="footer-bottom">
             <h2 class="derechos">Derechos reservados</h2>
         </section>
-    </footer>
-    <!-- <script src="./bootstrap.bundle.min.js"></script> -->
+    </footer> -->
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 </html>
