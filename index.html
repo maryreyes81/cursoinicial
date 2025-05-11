@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,110 +86,132 @@
 
     <!--Primera fila-->
 
-    <div class="container text-center">
-        <div class="row section border- border-dark justify-content-center">
-            <div class=" col-sm-12 col-md-6  mb-sm-0 mb-md-4 px-0">
-                <img src="./imagenes/producto1.jpg" class="img-fluid" alt="producto1">
+    <div class="container-fluid text-center">
+        <div class="row section justify-content-center gx-0">
+            <div class=" col-sm-12 col-md-6 mb-md-4 mb-4">
+                <img src="./imagenes/producto1.jpg" class="img-fluid ps-1" alt="producto1">
             </div>
-            <div class="col-sm-12 col-md-6 mb-4 border border-dark descripcionp">
-                <h3 class="fs-2 fw-bold tituloprod">Sofá</h3>
-                <p class="descripcion fs-3">Descripción del producto.</p>
-                <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal">Agregar al carrito</button>
-                <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
+            <div class="col-sm-12 col-md-6 mb-4 ">
+                <div class="card h-100 d-flex align-items-center justify-content-center"
+                    style="background-color:#037BC0; color:white;">
+                    <div class="card-body text-center" cardso style="padding-top:18%">
+                        <h3 class=" card-title fs-2 fw-bold tituloprod">Sofá</h3>
+                        <p class=" card-text descripcion fs-3">Descripción del producto.</p>
+                        <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                        <button type="button" class="btn btn-success mb-5" data-bs-toggle="modal"
+                            data-bs-target="#miModal">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
                         </div>
                         <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                            <p>El contenido del modal va aquí.</p>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar cambios</button>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
 
-    <!--Segunda fila-->
+    <!--Segunda fila Segundo producto-->
 
-    <div class="container">
-        <div class="row section gx-3 mb-4"> <!-- gx-5: espacio horizontal entre columnas -->
+    <div class="container-fluid text-center">
+        <div class="row section gx-4 mb-4 border-0">
 
             <!-- Primera columna con dos filas -->
-            <div class="col-sm-12  col-md-6  px-0">
+            <div class="col-sm-12  col-md-6">
                 <div class="mb-0">
                     <!-- Primera fila -->
-                    <div class=" mx-0  mi-contenedor"><img src="./imagenes/producto1.jpg" class="img-fluid"
-                            alt="producto1">
+                    <div class=" mx-0"><img src="./imagenes/producto1.jpg" class="img-fluid" alt="producto1">
                     </div>
                 </div>
                 <div>
                     <!-- Segunda fila -->
-                    <div class="border-dark mb-4 misegunda-f border border-dark descripcionp">
-                        <h3 class="fs-2 fw-bold">Sofá</h3>
-                        <p class="descripcion fs-3">Descripción del producto.</p>
-                        <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal2">Agregar al carrito</button>
-                <div class="modal fade" id="miModal2" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    <div class="border-0">
+                        <div class="card  border-0" style="background-color:#037BC0; color:white;">
+                            <div class="card-body card1 d-flex flex-column justify-content-center align-items-center text-center altura">
+                                <h3 class=" card-title fs-2 fw-bold ">Sofá Moderno</h3>
+                                <p class="card-text descripcion fs-3">Descripción del producto.</p>
+                                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#miModal">Agregar al carrito</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                        <div class="modal fade" id="miModal3" tabindex="-1" aria-labelledby="miModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Cerrar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>El contenido del modal va aquí.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                     </div>
                 </div>
             </div>
 
             <!-- Segunda columna con dos filas -->
-            <div class="col-sm-12 col-md-6  px-0 ">
+            <div class="col-sm-12 col-md-6">
                 <div class="mb-0">
                     <!-- Primera fila -->
-                    <div class="border border-dark"><img src="./imagenes/producto3.jpg" class="img-fluid"
-                            alt="producto3">
+                    <div class="border-0"><img src="./imagenes/producto3.jpg" class="img-fluid" alt="producto3">
                     </div>
                 </div>
                 <div>
                     <!-- Segunda fila -->
-                    <div class="border border-dark descripcionp mb-4 misegunda-f">
-                        <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
-                        <p class="descripcion fs-3">Descripción del producto.</p>
-                        <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal3">Agregar al carrito</button>
-                <div class="modal fade" id="miModal3" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    <div class="border-0">
+                        <div class="card  border-0" style="background-color:#037BC0; color:white;">
+                            <div class="card-body card1 d-flex flex-column justify-content-center align-items-center text-center altura">
+                                <h3 class=" card-title fs-2 fw-bold ">Sofá Moderno</h3>
+                                <p class="card-text descripcion fs-3">Descripción del producto.</p>
+                                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#miModal">Agregar al carrito</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                        <div class="modal fade" id="miModal3" tabindex="-1" aria-labelledby="miModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Cerrar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>El contenido del modal va aquí.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                     </div>
                 </div>
             </div>
@@ -198,63 +221,80 @@
 
     <!--Tercera Fila------->
 
-    <div class="container px-0">
+    <div class="container-fluid px-3">
         <div class="row section gx-3">
             <!-- Columna 1 -->
             <div class="col-sm-12  col-md-4">
-                <div class="border"><img src="./imagenes/producto4.jpg" class="img-fluid" alt="producto1"></div>
-                <div class="border descripcionp descripcionpp">
-                    <h3 class="fs-2 fw-bold ">Sofá Moderno</h3>
-                    <p class="descripcion fs-3">Descripción del producto.</p>
-                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal4">Agregar al carrito</button>
-                <div class="modal fade" id="miModal4" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                <div class="border-0"><img src="./imagenes/producto4.jpg" class="img-fluid" alt="producto4">
+                </div>
+                <div class="border-0">
+                        <div class="card  border-0" style="background-color:#037BC0; color:white;">
+                            <div class="card-body card2 d-flex flex-column justify-content-center align-items-center text-center altura">
+                                <h3 class=" card-title fs-2 fw-bold ">Sofá Moderno</h3>
+                                <p class="card-text descripcion fs-3">Descripción del producto.</p>
+                                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#miModal">Agregar al carrito</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                    <div class="modal fade" id="miModal4" tabindex="-1" aria-labelledby="miModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>El contenido del modal va aquí.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
             </div>
 
             <!-- Columna 2 -->
             <div class="col-sm-12 col-md-4">
                 <div class="border">
-                    <div class="border"><img src="./imagenes/producto5.jpg" class="img-fluid" alt="producto5"></div>
+                    <div class="border-0"><img src="./imagenes/producto5.jpg" class="img-fluid" alt="producto5"></div>
                 </div>
-                <div class="border descripcionp descripcionpp">
-                    <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
-                    <p class="descripcion fs-3">Descripción del producto.</p>
-                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal5">Agregar al carrito</button>
-                <div class="modal fade" id="miModal5" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                <div class="border-0">
+                        <div class="card  border-0" style="background-color:#037BC0; color:white;">
+                            <div class="card-body card2 d-flex flex-column justify-content-center align-items-center text-center altura">
+                                <h3 class=" card-title fs-2 fw-bold ">Sofá Moderno</h3>
+                                <p class="card-text descripcion fs-3">Descripción del producto.</p>
+                                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#miModal">Agregar al carrito</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                    <div class="modal fade" id="miModal5" tabindex="-1" aria-labelledby="miModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>El contenido del modal va aquí.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
             </div>
 
@@ -263,28 +303,36 @@
                 <div class="border">
                     <div class="border"><img src="./imagenes/producto6.jpg" class="img-fluid" alt="producto6"></div>
                 </div>
-                <div class="border descripcionp descripcionpp">
-                    <h3 class="fs-2 fw-bold">Sofá Moderno</h3>
-                    <p class="descripcion fs-3">Descripción del producto.</p>
-                    <p class="precio fs-4 text-primary fw-bolder">$500</p>
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miModal6">Agregar al carrito</button>
-                <div class="modal fade" id="miModal6" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                <div class="border-0">
+                        <div class="card  border-0" style="background-color:#037BC0; color:white;">
+                            <div class="card-body card2 d-flex flex-column justify-content-center align-items-center text-center altura">
+                                <h3 class=" card-title fs-2 fw-bold ">Sofá Moderno</h3>
+                                <p class="card-text descripcion fs-3">Descripción del producto.</p>
+                                <p class="precio fs-4 text-primary fw-bolder">$500</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#miModal">Agregar al carrito</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          <p>El contenido del modal va aquí.</p>
+                    <div class="modal fade" id="miModal6" tabindex="-1" aria-labelledby="miModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="miModalLabel">Agregar al carrito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>El contenido del modal va aquí.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-primary">Guardar cambios</button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
             </div>
         </div>
@@ -294,16 +342,16 @@
 
     <h2 class="categorias text-center fs-1 py-4">Categorías</h2>
 
-    <div class="container px-0">
-        <div class="row section gx-3">
+    <div class="container-fluid px-3">
+        <div class="row section gx-3 me-1">
             <!-- Columna 1 -->
-            <div class="col-sm-12 col-md-4 categoria">
+            <div class="col-sm-12 col-md-4  categoria">
                 <div class="border-0 pic"><img src="./imagenes/categoria1.jpg" class="img-fluid" alt="categoría1"></div>
                 <div class="border-0 cat ">Oficina</div>
             </div>
 
             <!-- Columna 2 -->
-            <div class="col-sm-12 col-md-4 categoria">
+            <div class="col-sm-12 col-md-4  categoria">
                 <div class="border-0 pic"><img src="./imagenes/categoria2.jpg" class="img-fluid" alt="categoría2"></div>
                 <div class="border-0 cat ">Hogar</div>
             </div>
@@ -318,48 +366,48 @@
 
     <footer class="bg-dark text-white pt-4">
         <div class="container">
-          <div class="row section justify-content-center">
-            <!-- Categorías -->
-            <div class="col-sm-12 col-md-4 mb-4 text-center">
-              <h5 class="text-uppercase">Categorías</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white text-decoration-none">Cocina</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Oficina</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Jardín</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Cochera</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Dormitorios</a></li>
-              </ul>
+            <div class="row section justify-content-center">
+                <!-- Categorías -->
+                <div class="col-sm-12 col-md-4 mb-4 text-center">
+                    <h5 class="text-uppercase">Categorías</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Cocina</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Oficina</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Jardín</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cochera</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Dormitorios</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sobre nosotros -->
+                <div class="col-sm-12 col-md-4 mb-4 text-center">
+                    <h5 class="text-uppercase">Sobre nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Nuestra historia</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Misión</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Visión y valores</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Carrera</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Políticas de privacidad</a></li>
+                    </ul>
+                </div>
+
+                <!-- Soporte -->
+                <div class="col-sm-12 col-md-4 mb-4 text-center">
+                    <h5 class="text-uppercase">Soporte</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Preguntas frecuentes</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Ayuda en línea</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Confianza y seguridad</a></li>
+                    </ul>
+                </div>
             </div>
-      
-            <!-- Sobre nosotros -->
-            <div class="col-sm-12 col-md-4 mb-4 text-center">
-              <h5 class="text-uppercase">Sobre nosotros</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white text-decoration-none">Nuestra historia</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Misión</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Visión y valores</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Carrera</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Políticas de privacidad</a></li>
-              </ul>
-            </div>
-      
-            <!-- Soporte -->
-            <div class="col-sm-12 col-md-4 mb-4 text-center">
-              <h5 class="text-uppercase">Soporte</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white text-decoration-none">Preguntas frecuentes</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Ayuda en línea</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Confianza y seguridad</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
-      
+
         <div class="bg-secondary text-center py-3">
-          <small>&copy; 2025 Todos los derechos reservados.</small>
+            <small>&copy; 2025 Todos los derechos reservados.</small>
         </div>
-      </footer>
-      
+    </footer>
+
 
 
 
@@ -525,4 +573,5 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
