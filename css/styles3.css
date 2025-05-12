@@ -67,6 +67,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Ajuste para tabletas (máx. 768px) */
+@media screen and (max-width: 768px) {
+    .hero-image {
+        max-height: 55rem; /* Tamaño para dispositivos más pequeños */
+    }
+}
+
+
 .overlay {
     width: 100%;
     height: 100%;
@@ -88,9 +96,18 @@ h1.titulo-pagina {
 }
 
 .tituloprod{
-padding:25% !important
+padding:25% 0 0 0 !important;
 }
 
+ .cardso{
+padding-top:18% !important;
+ }   
+
+ @media screen and (max-width: 576px) {
+.cardso{
+padding: 13.5% !important;
+}
+ }
 .misegunda-f{
 padding:100px 110px 80px 130px;
 }
