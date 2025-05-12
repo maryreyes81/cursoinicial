@@ -124,7 +124,6 @@ padding-top: 25%;
 }
 
 
-
 .card1{
     height:29.8rem;
 }
@@ -155,4 +154,17 @@ padding-top: 25%;
     background-color: #dff0f9;
     border-radius: 8px;
     margin-left: 10px;
+}
+
+.imagen-hover {
+  transition: transform 0.4s ease;
+}
+
+.categoria .pic {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imagen-hover:hover {
+  transform: scale(1.2);
 }
