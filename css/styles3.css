@@ -152,7 +152,7 @@ padding-top: 25%;
     padding-top: 20px;
     height: 80px;
     background-color: #dff0f9;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     margin-left: 10px;
 }
 
@@ -161,10 +161,28 @@ padding-top: 25%;
 }
 
 .categoria .pic {
-  overflow: hidden;
-  border-radius: 10px;
+  overflow:hidden;
+  border-radius: 10px 10px 0 0;
 }
 
 .imagen-hover:hover {
   transform: scale(1.2);
+}
+
+.efecto-hover {
+    transition: transform 0.4s ease-in-out;
+}
+
+.contenedor-imagen {
+ overflow:hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.efecto-hover {
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center center;
+}
+
+.efecto-hover:hover {
+    transform: scale(1.2); 
 }
