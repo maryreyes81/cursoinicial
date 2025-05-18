@@ -96,47 +96,24 @@ h1.titulo-pagina {
 }
 
 .tituloprod{
-padding:25% 0 0 0 !important;
+/* padding:5% 0 10% 0 !important; */
+padding: 4%;
+margin: 0 auto;
 }
-
- .cardso{
-padding-top:18% !important;
- }   
-
- @media screen and (max-width: 576px) {
-.cardso{
-padding: 13.5% !important;
-}
- }
-.misegunda-f{
-padding:100px 110px 80px 130px;
-}
-
-@media screen and (max-width: 576px) {
-   .misegunda-f{
-padding-top: 25%;
-   } 
-}
+  
 
 .descripcionp{
     background-color: #037BC0;
     color: white;
 }
 
+.btn-success {
+  background-color: #33c833 !important;
+}
+.cat{
+  padding: 30px;
+  background-color: #d6e5ed;
 
-.card1{
-    height:29.8rem;
-}
-.card2{
-    height: 22rem;
-}
-.descripcionpp{
-    padding: 50px 80px 50px 110px;
-}
-
-.pic{
-    border-radius: 8px !important;
-    margin-left: 10px;
 }
 .categoria{
     color: #037BC0;
@@ -148,13 +125,7 @@ padding-top: 25%;
 }
 
 
-.cat{
-    padding-top: 20px;
-    height: 80px;
-    background-color: #dff0f9;
-    border-radius: 8px 8px 0 0;
-    margin-left: 10px;
-}
+
 
 .imagen-hover {
   transition: transform 0.4s ease;
@@ -169,20 +140,24 @@ padding-top: 25%;
   transform: scale(1.2);
 }
 
-.efecto-hover {
-    transition: transform 0.4s ease-in-out;
-}
-
 .contenedor-imagen {
- overflow:hidden;
-  border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
-.efecto-hover {
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
     transition: transform 0.4s ease-in-out;
     transform-origin: center center;
 }
 
-.efecto-hover:hover {
-    transform: scale(1.2); 
+/* Hover sobre la imagen */
+.contenedor-imagen img:hover {
+    transform: scale(1.2);
 }
